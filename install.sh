@@ -23,6 +23,7 @@ fi
 # Download and install
 curl -sL https://raw.githubusercontent.com/srhyne/doinfo/main/builds/$binary/doinfo -o doinfo
 chmod +x doinfo
-sudo mv doinfo /usr/local/bin
+mv doinfo /usr/local/bin
+mkdir ~/.doinfo
 
 echo "Installation complete!"
