@@ -94,4 +94,7 @@ doinfo scan mongo 27017
 
 ### ~/.doinfo
 
-~/.doinfo stores a tiny .env file that includes your 
+~/.doinfo stores...
+
+- a tiny .env file that includes your Digital Ocean API Key.
+- dropets.json cache
