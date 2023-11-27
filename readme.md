@@ -11,12 +11,25 @@ Make working with Digital Ocean Droplets a lot easier!
 
 ### Quick Install..
 
-Just download the right binary directly from Github! 
+1. Just download the right binary directly from Github! 
 
 ```
 curl -s https://raw.githubusercontent.com/srhyne/doinfo/main/install.sh | bash
 ```
 
+2. Install your Digital Ocean API Key
+
+```
+doinfo apikey :your-api-key
+```
+
+3. Fetch your droplets. (Droplets are cached for quicker search)
+
+```
+doinfo fetch
+```
+
+Now you are ready to use all of the commands below.. 
 
 ### Running script without compilation
 
@@ -78,3 +91,7 @@ doinfo scan web 443
 # 😬
 doinfo scan mongo 27017 
 ```
+
+### ~/.doinfo
+
+~/.doinfo stores a tiny .env file that includes your 
