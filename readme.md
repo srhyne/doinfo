@@ -9,6 +9,15 @@ Make working with Digital Ocean Droplets a lot easier!
 - Tired of keeping your /etc/hosts file in sync? Use `hosts` to generate one!
 - Tired of checking if ports are open/closed? Use `scan`!
 
+### Quick Install..
+
+Just download the right binary directly from Github! 
+
+```
+curl -s https://raw.githubusercontent.com/srhyne/doinfo/main/install.sh | bash
+```
+
+
 ### Running script without compilation
 
 deno run --allow-all doinfo.js *
