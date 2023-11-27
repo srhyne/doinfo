@@ -4,13 +4,10 @@ Make working with Digital Ocean Droplets a lot easier!
 
 ### Why doinfo? 
 
-- Tired of opening up the Digital Ocean console and it's painfully slow droplet search? Use `fetch` and `search`
-- Tired of cross checking IP firewalls and configs with droplet names? Use `reveal`
-- Tired 
-
-## Key Features
-- Cache droplet info locally for super fast search.
-- 
+- Tired of opening up the Digital Ocean console and it's painfully slow droplet search? Use `fetch` and `search`!
+- Tired of cross checking IP firewalls and configs with droplet names? Use `reveal`!
+- Tired of keeping your /etc/hosts file in sync? Use `hosts` to generate one!
+- Tired of checking if ports are open/closed? Use `scan`!
 
 ### Running script without compilation
 
